@@ -55,3 +55,6 @@ h2{
     display: block;
     border-radius: 12px;
 }
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
