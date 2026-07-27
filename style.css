@@ -23,3 +23,28 @@ p {
     height: auto;
     display: block;
 }
+h2{
+    color:#4da6ff;
+    margin-top:50px;
+}
+
+.harga{
+    width:90%;
+    max-width:500px;
+    margin:20px auto;
+    background:#2a2b30;
+    border-radius:10px;
+    padding:15px;
+}
+
+.harga p{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+    color:white;
+}
+
+.harga span{
+    color:#4da6ff;
+    font-weight:bold;
+}
