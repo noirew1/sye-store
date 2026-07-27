@@ -58,3 +58,19 @@ h2{
 h1 {
     font-family: 'Poppins', sans-serif;
 }
+.order-btn {
+    background: #4da3ff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px auto;
+    display: block;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background: #2f7fe0;
+    }
