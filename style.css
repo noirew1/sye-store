@@ -48,3 +48,10 @@ h2{
     color:#4da6ff;
     font-weight:bold;
 }
+.katalog {
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+}
