@@ -5,9 +5,10 @@
 }
 
 body{
-    background:#1c1d21;
+    background:linear-gradient(180deg, #2f4732, #1c1d21);
     color:white;
     font-family:Arial,sans-serif;
+}
 }
 
 header{
