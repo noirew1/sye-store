@@ -75,3 +75,31 @@ p{
         transform:translateX(-200%);
     }
 }
+.order-btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+    width:250px;
+    margin:30px auto;
+    padding:15px;
+
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    font-family:'Minecraftia', sans-serif;
+    font-size:15px;
+
+    border-radius:12px;
+    transition:.3s;
+}
+
+.order-btn:hover{
+    background:#1ebe5d;
+    transform:scale(1.05);
+}
+
+.order-btn i{
+    font-size:22px;
+}
