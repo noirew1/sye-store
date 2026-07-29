@@ -74,7 +74,7 @@ h1 {
 .order-btn {
     display: block;
     width: 250px;
-    margin: 30px auto;
+    margin: 30px 20px 30px auto;
     padding: 16px 20px;
     font-size: 20px;
     font-weight: bold;
