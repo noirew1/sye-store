@@ -90,3 +90,10 @@ h1 {
     background: #4da3ff;
     color: white;
 }
+.order-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
