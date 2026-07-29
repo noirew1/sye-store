@@ -12,19 +12,19 @@ body{
 }
 
 header{
-    text-align:center;
-    padding:30px;
+    text-align: center;
+    padding: 30px 20px;
 }
 
 h1{
+    margin: 0;
     font-family: 'Minecraftia', sans-serif;
-    font-size:32px;
-    margin-bottom:10px;
-
+    font-size: 32px;
 }
 
 p{
-    color:#cfcfcf;
+    margin-top: 10px;
+    color: #cfcfcf;
 }
 .banner{
     width:100%;
