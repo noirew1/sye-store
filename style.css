@@ -108,5 +108,17 @@ h1 {
     to {
         left: 200px;
     }
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/MinecraftTen.ttf') format('truetype');
 }
-
+.promo {
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 8px #4da3ff,
+        0 0 16px #4da3ff,
+        0 0 24px #4da3ff;
+}
