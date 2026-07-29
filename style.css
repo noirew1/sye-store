@@ -96,4 +96,17 @@ h1 {
     justify-content: center;
     gap: 10px;
 }
+.teks-bergerak {
+    position: relative;
+    animation: geser 3s infinite alternate;
+}
+
+@keyframes geser {
+    from {
+        left: 0;
+    }
+    to {
+        left: 200px;
+    }
+}
 
