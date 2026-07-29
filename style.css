@@ -31,3 +31,28 @@ p{
     height:auto;
     display:block;
 }
+.marquee{
+    width:100%;
+    overflow:hidden;
+    border-top:2px solid #6d9445;
+    border-bottom:2px solid #6d9445;
+    background:#1c1d21;
+    padding:10px 0;
+    white-space:nowrap;
+}
+
+.marquee p{
+    display:inline-block;
+    color:white;
+    font-family:'Minecraftia', sans-serif;
+    animation:jalan 12s linear infinite;
+}
+
+@keyframes jalan{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
