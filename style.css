@@ -26,3 +26,8 @@ h1{
 p{
     color:#cfcfcf;
 }
+.banner{
+    width:100%;
+    height:auto;
+    display:block;
+}
