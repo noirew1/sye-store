@@ -1,3 +1,8 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Sye Store berhasil dimuat!");
+
+});
 const judulAsli = document.title;
 
 document.addEventListener("visibilitychange", function () {
