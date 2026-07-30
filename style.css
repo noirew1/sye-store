@@ -75,10 +75,10 @@ p{
         transform:translateX(-200%);
     }
 }
-.order-btn{
+.saluran-btn{
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:left;
+    align-items:right;
     gap:10px;
 
     width:250px;
@@ -95,7 +95,7 @@ p{
     transition:.3s;
 }
 
-.order-btn:hover{
+.saluran -btn:hover{
     background:#1ebe5d;
     transform:scale(1.05);
 }
