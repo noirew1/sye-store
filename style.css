@@ -99,3 +99,38 @@ p{
     background:#1ebe5d;
     transform:scale(1.05);
 }
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:20px;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-decoration:none;
+    color:#000;
+}
+
+.product-card img{
+    width:100%;
+    display:block;
+}
+
+.product-info{
+    padding:15px;
+}
+
+.price{
+    color:#ff7b00;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.country{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
