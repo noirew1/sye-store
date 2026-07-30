@@ -77,7 +77,7 @@ p{
 }
 .saluran-btn{
     display:flex;
-    justify-content:left;
+    justify-content:right;
     align-items:right;
     gap:10px;
 
