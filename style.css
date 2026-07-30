@@ -95,13 +95,17 @@ p{
     border-radius:12px;
     transition:.3s;
 
-    margin-left: auto;
-    margin-right: 20px;
 } 
 
 .saluran-btn:hover{
     background:#1ebe5d;
     transform:scale(1.05);
+}
+.button-group{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:30px 20px;
 }
 .product-grid{
     display:grid;
