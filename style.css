@@ -75,27 +75,13 @@ p{
         transform:translateX(-200%);
     }
 }
-.saluran-btn{
-    display:flex;
-    justify-content:left;
-    align-items:right;
-    gap:10px;
-
-    width:250px;
-    margin:30px auto;
-    padding:15px;
-
-    background:#25D366;
-    color:white;
-    text-decoration:none;
-    font-family:'Minecraftia', sans-serif;
-    font-size:15px;
-
-    border-radius:12px;
-    transition:.3s;
+.channel-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px; /* Ubah angka ini jika ingin lebih mepet atau lebih jauh dari kanan */
 }
 
-.saluran-btn:hover{
+.channel-btn:hover{
     background:#1ebe5d;
     transform:scale(1.05);
 }
