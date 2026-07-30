@@ -12,3 +12,14 @@ document.addEventListener("visibilitychange", function () {
         document.title = judulAsli;
     }
 });
+const tombol = document.getElementById("theme-toggle");
+
+tombol.addEventListener("click", function () {
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+        tombol.textContent = "☀️ Mode Terang";
+    } else {
+        tombol.textContent = "🌙 Mode Gelap";
+    }
+});
