@@ -95,7 +95,7 @@ p{
     transition:.3s;
 }
 
-.saluran -btn:hover{
+.saluran-btn:hover{
     background:#1ebe5d;
     transform:scale(1.05);
 }
